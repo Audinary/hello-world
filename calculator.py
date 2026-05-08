@@ -1,9 +1,10 @@
 from tkinter import *
-
+from datetime import datetime
 from tkinter import ttk
 
 import calendar
 
+print(datetime.now())
 
 def showCal():
     new_window = Tk()
@@ -12,7 +13,7 @@ def showCal():
 
     new_window.title("Calendar")
 
-    new_window.geometry("550x620")
+    new_window.geometry("550x600")
 
     fetch_year = int(year_field.get())
 
