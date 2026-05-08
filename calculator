@@ -12,7 +12,7 @@ def showCal():
 
     new_window.title("Calendar")
 
-    new_window.geometry("550x600")
+    new_window.geometry("550x620")
 
     fetch_year = int(year_field.get())
 
